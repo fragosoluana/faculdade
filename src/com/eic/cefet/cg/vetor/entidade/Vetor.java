@@ -1,12 +1,12 @@
-package com.eic.cefet.cg.vector.entity;
+package com.eic.cefet.cg.vetor.entidade;
 
-public class Vector {
+public class Vetor {
 	
 	private double x;
 	private double y;
 	private double z;
 	
-	public Vector(double x, double y, double z) {
+	public Vetor(double x, double y, double z) {
 		this.x = x;
 		this.y = y;
 		this.z = z;
@@ -39,7 +39,7 @@ public class Vector {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Vector other = (Vector) obj;
+		Vetor other = (Vetor) obj;
 		if (Double.doubleToLongBits(x) != Double.doubleToLongBits(other.x))
 			return false;
 		if (Double.doubleToLongBits(y) != Double.doubleToLongBits(other.y))

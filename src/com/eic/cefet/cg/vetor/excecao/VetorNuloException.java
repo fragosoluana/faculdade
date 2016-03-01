@@ -1,4 +1,4 @@
-package com.eic.cefet.cg.vector.exception;
+package com.eic.cefet.cg.vetor.excecao;
 
 public class VetorNuloException extends Exception {
 
