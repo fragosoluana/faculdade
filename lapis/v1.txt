@@ -46,7 +46,6 @@ def timer(i):
     	glutTimerFunc(50,timer,1)
 
 # PROGRAMA PRINCIPAL
-sidesInBase=4
 glutInit(sys.argv)
 glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH | GLUT_MULTISAMPLE)
 glEnable(GL_MULTISAMPLE)
